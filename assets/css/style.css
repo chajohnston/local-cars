@@ -59,16 +59,14 @@ h3 {
 
 #hero {
   background-color: var(--highlight-color-light);
-  background-image: url("../images/hero-background.webp");
+  background-image: url("assets\images\hero-background.webp");
 
-  /* background-size: 70%; */
   background-repeat: no-repeat;
   /* background-position: top; */
   /* padding-top: 150px; */
   /* height: 50%; */
   /* height: 250px; */
   /* min-height: 800px; */
-  /* width: 100%; */
   background-position-x: center;
 
   background-size: 80%;
