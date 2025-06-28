@@ -30,7 +30,8 @@ h1,
 h2,
 h3 {
   font-family: var(--secondary-font);
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
+  color: white;
 
   text-transform: uppercase;
 }
@@ -48,13 +49,64 @@ h3 {
 
 #navbar {
   background-color: var(--primary-color);
-width: 100%;
+  width: 100%;
+}
 
-}
-#navbar a {
-  /* color: black; */
-}
 #navbar .logo {
   width: 50px;
- 
+}
+/* Header */
+
+#hero {
+  background-color: var(--highlight-color-light);
+  background-image: url("../images/hero-background.webp");
+
+  /* background-size: 70%; */
+  background-repeat: no-repeat;
+  /* background-position: top; */
+  /* padding-top: 150px; */
+  /* height: 50%; */
+  /* height: 250px; */
+  /* min-height: 800px; */
+  /* width: 100%; */
+  background-position-x: center;
+
+  background-size: 80%;
+  min-height: 50px;
+  /* max-height: 400px; */
+  padding: 5% 7%;
+  padding-top: 250px;
+  /* margin-bottom: -200px; */
+}
+.hero-text {
+    /* color: var(--primary-font); */
+    color: var(--primary-color);
+    font-weight: 800;
+}
+@media screen and (min-width: 768px) {
+  #hero {
+    padding-top: 320px;
+    background-size: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #hero {
+    padding-top: 430px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #hero {
+    padding-top: 600px;
+    /* background-size: 50%; */
+
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  #hero {
+    padding-top: 800px;
+    background-size: 40%;
+  }
 }
