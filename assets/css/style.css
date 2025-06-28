@@ -59,7 +59,7 @@ h3 {
 
 #hero {
   background-color: var(--highlight-color-light);
-  background-image: url("assets\images\hero-background.webp");
+  background-image: url("../images/hero-background.webp");
 
   background-repeat: no-repeat;
   /* background-position: top; */
