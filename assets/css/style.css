@@ -73,7 +73,8 @@ h3 {
   min-height: 50px;
   /* max-height: 400px; */
   padding: 5% 7%;
-  padding-top: 220px;
+  padding-top: 200px;
+  margin-top: -3px;
   /* margin-bottom: -200px; */
 }
 .hero-text {
