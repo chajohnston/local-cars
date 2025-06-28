@@ -7,6 +7,8 @@ The Local Cars website is a landing page for perspective buyers of used cars in 
 
 1. [Overview](#overview)
 1. [User Experience](#user-experience)
+1. [Design](#design)
+
 
 # User Experience
 
@@ -58,3 +60,56 @@ Navbar mobile open view:
 - Current page will be underlined in the navbar.
 - Clicking on logo will always return user to homepage.
 - Menu transforms into a 'hamburger' menu on smaller devices or when window is reduced.
+
+## Favicon
+
+- Car favicon icon in site tab to match webiste theme.
+
+Themed favicon:
+
+![favicon](documentation/faviconview.png)
+
+
+
+# Design
+
+### Colours
+
+- Deep blue color combination was choosen.
+
+Colour palette:
+
+![color-palette](documentation/color-pallette.png)
+
+
+### Fonts
+
+- Google fonts supplied all text styles.
+- Oswald font used on 'home' and 'contact' pages.
+- Lato used on 'about' and 'service and repairs' pages.
+
+- Font Awesome was used for the social media link icons, the logo icon and for the favicon icon.
+
+# Wireframes
+
+- Balsamiq was used to create the wireframes.
+
+Home page:
+
+![home-wire](documentation/homepage-wire.png)
+
+About page:
+
+![about-wire](documentation/about-wire.PNG)
+
+Service and Repairs page:
+
+![service-and-repairs](documentation/service-repairs-wire.PNG)
+
+Contact page:
+
+![contact-wire](documentation/contact-wire.PNG)
+
+Gallery page:
+
+![gallery-wire](documentation/gallery-wire.PNG)
