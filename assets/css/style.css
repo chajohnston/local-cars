@@ -60,32 +60,33 @@ h3 {
 #hero {
   background-color: var(--highlight-color-light);
   background-image: url("../images/hero-background.webp");
-
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: center;
+  min-height: 300px;
+  padding: 5% 7%;
+  /* padding-top: 200px; */
+  margin-top: -3px;
+  opacity: .6;
   /* background-position: top; */
   /* padding-top: 150px; */
   /* height: 50%; */
   /* height: 250px; */
-  /* min-height: 800px; */
-  background-position-x: center;
-
-  background-size: 80%;
-  min-height: 50px;
+  /* min-height: 100px; */
   /* max-height: 400px; */
-  padding: 5% 7%;
-  padding-top: 200px;
-  margin-top: -3px;
   /* margin-bottom: -200px; */
 }
 .hero-text {
-    /* color: var(--primary-font); */
-    color: var(--primary-color);
-    font-weight: 800;
+  color: var(--primary-color);
+  font-size: 400%;
+  font-weight: 800;
+  text-align: right;
+
 }
 @media screen and (min-width: 768px) {
   #hero {
-    padding-top: 320px;
-    background-size: 60%;
+    /* padding-top: 320px; */
+    /* background-size: 60%; */
   }
 }
 
@@ -97,15 +98,15 @@ h3 {
 
 @media screen and (min-width: 1440px) {
   #hero {
-    padding-top: 600px;
+    /* padding-top: 600px; */
     /* background-size: 50%; */
-
+    min-height: 300px;
   }
 }
 
 @media screen and (min-width: 2560px) {
   #hero {
     padding-top: 800px;
-    background-size: 40%;
+    /* background-size: 40%; */
   }
 }
