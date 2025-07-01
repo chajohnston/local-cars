@@ -23,6 +23,7 @@
 
 body {
   font-family: var(--primary-font);
+  background-color: var(--secondary-color);
   padding-top: 80px;
 }
 
@@ -84,11 +85,40 @@ h3 {
 
 }
 
-#cars {
-  height: 200px;
-  /* overflow: hidden; */
 
+
+/* cars */
+
+#cars {
+    background-color:var(--secondary-color);
+    height: 200px;
 }
+
+#cars h2 {
+  color: white;
+}
+
+#cars .card-title {
+    color: var(--highlight-color);
+    /* color: black; */
+    font-size: 1.5rem;
+}
+
+#cars .btn-outline-secondary:hover {
+    background-color: var(--highlight-color);
+}
+
+#cars .card-text {
+    min-height: 350px;
+}
+
+.card-body {
+  background-color: var(--highlight-color-light);
+}
+main {
+  background-color: var(--secondary-color);
+}
+
 @media screen and (min-width: 768px) {
   #hero {
     /* padding-top: 320px; */
