@@ -25,6 +25,7 @@ body {
   font-family: var(--primary-font);
   background-color: var(--secondary-color);
   padding-top: 80px;
+  
 }
 
 h1,
@@ -118,8 +119,15 @@ h3 {
 }
 main {
   background-color: var(--secondary-color);
+
 }
 
+footer {
+  min-height: 50px;
+  background-color: red;
+  
+
+}
 @media screen and (min-width: 768px) {
   #hero {
     /* padding-top: 320px; */
