@@ -32,18 +32,12 @@ h2,
 h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
-  /* color: white; */
 
   text-transform: uppercase;
 }
 
 .sub-heading-color {
   color: var(--highlight-color);
-}
-
-.section {
-  /* margin-top: 2rem; */
-  /* margin-bottom: 2rem; */
 }
 
 /* Navbar */
@@ -66,16 +60,8 @@ h3 {
   background-position-x: center;
   min-height: 300px;
   padding: 5% 7%;
-  /* padding-top: 200px; */
   margin-top: -3px;
   opacity: 0.6;
-  /* background-position: top; */
-  /* padding-top: 150px; */
-  /* height: 50%; */
-  /* height: 250px; */
-  /* min-height: 100px; */
-  /* max-height: 400px; */
-  /* margin-bottom: -200px; */
 }
 .hero-text {
   color: var(--primary-color);
@@ -97,7 +83,6 @@ h3 {
 
 #cars .card-title {
   color: var(--highlight-color);
-  /* color: black; */
   font-size: 1.5rem;
   min-height: 100px;
 }
@@ -107,7 +92,7 @@ h3 {
 }
 
 #cars .card-text {
-  min-height: 320px;
+  min-height: auto;
 }
 
 .card-body {
@@ -116,6 +101,7 @@ h3 {
 main {
   background-color: var(--secondary-color);
   margin-bottom: 0;
+  padding-bottom: 50px;
 }
 
 /* Footer */
@@ -124,6 +110,9 @@ footer {
   /* background-color: red; */
   margin: 0;
   background-color: var(--primary-color);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 #social-networks {
@@ -143,8 +132,7 @@ footer {
 
 @media screen and (min-width: 768px) {
   #hero {
-    /* padding-top: 320px; */
-    /* background-size: 60%; */
+
   }
 }
 
@@ -156,8 +144,7 @@ footer {
 
 @media screen and (min-width: 1440px) {
   #hero {
-    /* padding-top: 600px; */
-    /* background-size: 50%; */
+
     min-height: 300px;
   }
 }
@@ -165,6 +152,5 @@ footer {
 @media screen and (min-width: 2560px) {
   #hero {
     padding-top: 800px;
-    /* background-size: 40%; */
   }
 }
