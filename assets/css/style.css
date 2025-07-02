@@ -25,7 +25,6 @@ body {
   font-family: var(--primary-font);
   background-color: var(--secondary-color);
   padding-top: 80px;
-  
 }
 
 h1,
@@ -43,8 +42,8 @@ h3 {
 }
 
 .section {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  /* margin-top: 2rem; */
+  /* margin-bottom: 2rem; */
 }
 
 /* Navbar */
@@ -69,7 +68,7 @@ h3 {
   padding: 5% 7%;
   /* padding-top: 200px; */
   margin-top: -3px;
-  opacity: .6;
+  opacity: 0.6;
   /* background-position: top; */
   /* padding-top: 150px; */
   /* height: 50%; */
@@ -83,16 +82,13 @@ h3 {
   font-size: 400%;
   font-weight: 800;
   text-align: right;
-
 }
-
-
 
 /* cars */
 
 #cars {
-    background-color:var(--secondary-color);
-    height: 280px;
+  background-color: var(--secondary-color);
+  min-height: 400px;
 }
 
 #cars h2 {
@@ -100,18 +96,18 @@ h3 {
 }
 
 #cars .card-title {
-    color: var(--highlight-color);
-    /* color: black; */
-    font-size: 1.5rem;
-    min-height: 100px;
+  color: var(--highlight-color);
+  /* color: black; */
+  font-size: 1.5rem;
+  min-height: 100px;
 }
 
 #cars .btn-outline-secondary:hover {
-    background-color: var(--highlight-color);
+  background-color: var(--highlight-color);
 }
 
 #cars .card-text {
-    min-height: 320px;
+  min-height: 320px;
 }
 
 .card-body {
@@ -119,15 +115,32 @@ h3 {
 }
 main {
   background-color: var(--secondary-color);
-
+  margin-bottom: 0;
 }
 
+/* Footer */
 footer {
   min-height: 50px;
-  background-color: red;
-  
-
+  /* background-color: red; */
+  margin: 0;
+  background-color: var(--primary-color);
 }
+
+#social-networks {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: var(--highlight-color);
+}
+
 @media screen and (min-width: 768px) {
   #hero {
     /* padding-top: 320px; */
