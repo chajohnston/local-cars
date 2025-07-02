@@ -100,16 +100,16 @@ Home page:
 
 About page:
 
-![about-wire](documentation/about-wire.PNG)
+![about-wire](documentation/about-wire.png)
 
 Service and Repairs page:
 
-![service-and-repairs](documentation/service-repairs-wire.PNG)
+![service-and-repairs](documentation/service-repairs-wire.png)
 
 Contact page:
 
-![contact-wire](documentation/contact-wire.PNG)
+![contact-wire](documentation/contact-wire.png)
 
 Gallery page:
 
-![gallery-wire](documentation/gallery-wire.PNG)
+![gallery-wire](documentation/gallery-wire.png)
