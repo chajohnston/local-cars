@@ -144,10 +144,7 @@ footer {
 
 
 
-#contact {
-    
-   
-}
+
 #contact {
 
   color: var(--highlight-color);
@@ -170,10 +167,11 @@ footer {
     text-align: center;
 }
 
-#contact .form-control{
+#contact .form-control {
     border-radius: 0;
     border:2px solid #1e1e1e;
     background-color: var(--highlight-color-light);
+  
 }
 
 #contact button {
