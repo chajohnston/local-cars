@@ -75,15 +75,15 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link active" aria-current="page" href="about.html"
+                >About</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Service and Repairs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contact.html"
-                >Contact</a
-              >
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -91,78 +91,114 @@
     </nav>
 
     <main>
-      <!--Contact form-->
-
-      <section id="contact">
-        <div class="container">
-          <div class="well well-sm">
-            <h2>Visit our showroom today!</h2>
-            <p>Please submit any questions you may have</p>
+      <!-- About section links to #about href in navbar -->
+      <section id="about" class="container">
+        <div class="row">
+          <!-- my-4 used to add top and bottom margin to heading -->
+          <div class="col-12 text-center my-4">
+            <h2 class="display-5">About Local Cars</h2>
           </div>
-          
+          <!-- mb-4 used to add margin under image -->
+          <div class="col-12 col-md-6 mb-4">
+            <!-- img-fluid class makes the image responsive to its container -->
+            <img
+              src="assets\images\why-choose-local-cars.webp"
+              class="img-fluid"
+              alt="Why choose local cars"
+            />
+          </div>
+          <!-- mb-4 used to add margin under text -->
+          <div class="col-12 col-md-6 mb-4">
+            <h4>
+              Why choose Local Cars to purchase your next second hand car?
+            </h4>
+            <!-- <p>
+              Established in 2025, Local Cars has been supplying used cars to
+              valued customers recently. Our clients know they can trust us to
+              provide the best quality, affordable cars with the hightest
+              standards of customer service.
+            </p> -->
+            <p>
+              When we sell you a car, we don not simply hand over the keys and
+              wave goodbye. We are here for you, helping to take care of your
+              car and keep it in optimum condition for as long as you want us
+              to.
+            </p>
+            <p>
+              Our team at Local Cars are experienced and highly trained who are
+              committed to understanding and meeting your requirments. We
+              provide an excellent standard of service.
+            </p>
+          </div>
+          <!-- mb-4 used to add margin under text -->
+          <div class="col-12 col-md-6 mb-4 order-2 order-md-1">
+            <h4>Meet the team</h4>
+            <p>
+              Do not be afraid to talk to our team about your specific needs.
+              Our experienced sales team of Erica, Charles and Joe will make
+              sure to find the best fit for you.
+            </p>
+          </div>
+          <!-- mb-4 used to add margin under image -->
+          <div class="col-12 col-md-6 mb-4 order-1 order-md-2">
+            <!-- img-fluid class makes the image responsive to its container -->
+            <img
+              src="assets/images/team.webp"
+              class="img-fluid"
+              alt="Why choose local cars"
+            />
+          </div>
+        </div>
+      </section>
 
-          <!--Iframe map-->
-
-          <div class="row">
-            <div class="col-md-7">
-               <p>Address: Laharan, Killorglin, Co. Kerry</p>
-              <iframe
-                class="iframe"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d612.6962828318091!2d-9.812187732854982!3d52.10184196400259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1751477739101!5m2!1sen!2sie"
-                width="600"
-                height="450"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                width="600"
-                height="450"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                allowfullscreen
-              ></iframe>
+      <section id="test">
+        <h4>Testimonials</h4>
+        <div id="testimonials" class="container">
+          <div id="test1">
+            <h5>Kevin Dillon</h5>
+            <div>
+              <p>
+                I am absolutly delighted with my first car. It was a pleasure
+                dealing with Local Cars and I got a great deal. I also had
+                suberb service since I bought my car.
+              </p>
             </div>
-
-            <div class="col-md-5">
-              <p>Enquiries</p>
-              <form method="get" action="submit.html">
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="name"
-                    required
-                  />
-                </div>
-                <br />
-                <div class="form-group">
-                  <input
-                    type="email"
-                    class="form-control"
-                    placeholder="email"
-                    required
-                  />
-                </div>
-                <br />
-                <div class="form-group">
-                  <textarea
-                    class="form-control"
-                    rows="3"
-                    placeholder="message"
-                    required
-                  ></textarea>
-                </div>
-                <button class="btn btn-default sharp-corners" type="submit" name="button">
-                   Submit
-                </button>
-              </form>
+          </div>
+          <div id="test2">
+            <h5>Patsy Tim</h5>
+            <div>
+              <p>
+                Very happy with my car. It is quick and fun to drive. Its
+                exactly what I asked for.
+              </p>
             </div>
+          </div>
+          <div id="test3">
+            <h5>Alan Kavenagh</h5>
+            <div>
+              <p>
+                I was looking for a cheap van. My demands were immediatly
+                catered for. It was pleasure to deal with Local Cars.
+              </p>
+            </div>
+          </div>
+          <div id="test4">
+            <h5>John Connely</h5>
+            <div >
+              <p>
+                My son needed a car and we had seacrhed everywhere for something
+                suitable. We eventually found local Cars and they sorted us out
+                straight away.
+              </p>
+            </div>
+          </div>
+          <div id="testimonial-image">
+            <div id="circle-cover"></div>
           </div>
         </div>
       </section>
     </main>
+
     <!-- A footer element -->
     <footer>
       <ul id="social-networks">
