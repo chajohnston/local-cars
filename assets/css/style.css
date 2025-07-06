@@ -36,6 +36,9 @@ h3 {
   text-transform: uppercase;
 }
 
+p, h5 {
+  color: var(--highlight-color);
+}
 .sub-heading-color {
   color: var(--highlight-color);
 }
@@ -216,6 +219,13 @@ h2 {
   width: 100%;
 }
 
+#about h4 {
+color: var(--highlight-color);
+
+}
+#test h4 {
+  color: var(--highlight-color);
+}
 #testimonial-image {
   display: flex;
   align-items: center;
@@ -235,30 +245,35 @@ h2 {
   padding-top: 60px;
   padding-bottom: 60px;
   text-align: center;
-
 }
 #test3,
 #test4 {
   text-align: end;
 }
 
-/* @media screen and (min-width: 768px) {
-  #hero {
-
+@media screen and (min-width: 768px) {
+  #test1,
+  #test2 {
+    padding-right: 300px;
   }
-} */
+  #test3,
+  #test4 {
+    padding-left: 300px;
+  }
+}
 
 @media screen and (min-width: 1024px) {
   #hero {
     padding-top: 430px;
   }
-}
-
-@media screen and (min-width: 1440px) {
-  #hero {
-    min-height: 300px;
+  #test1,
+  #test2 {
+    padding-right: 0;
   }
-
+  #test3,
+  #test4 {
+    padding-left: 0;
+  }
   #testimonials {
     display: flex;
     flex-direction: row;
@@ -277,6 +292,10 @@ h2 {
     order: 2;
     margin: 20px;
   }
+  #circle-cover {
+    height: 20vw;
+    width: 20vw;
+  }
   #test1 {
     order: 0;
     align-self: flex-start;
@@ -289,9 +308,14 @@ h2 {
     text-align: center;
   }
   #test4 {
-
     order: 4;
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #hero {
+    min-height: 300px;
   }
 }
 
