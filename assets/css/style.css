@@ -24,6 +24,7 @@
 body {
   font-family: var(--primary-font);
   background-color: var(--secondary-color);
+  /* background-color: white; */
   padding-top: 80px;
 }
 
@@ -32,11 +33,11 @@ h2,
 h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
-
   text-transform: uppercase;
 }
 
-p, h5 {
+p,
+h5 {
   color: var(--highlight-color);
 }
 .sub-heading-color {
@@ -220,8 +221,7 @@ h2 {
 }
 
 #about h4 {
-color: var(--highlight-color);
-
+  color: var(--highlight-color);
 }
 #test h4 {
   color: var(--highlight-color);
@@ -253,9 +253,11 @@ color: var(--highlight-color);
 
 #service h4 {
   color: var(--highlight-color);
-
 }
-#service-repairs h4,h5,h6,li {
+#service-repairs h4,
+h5,
+h6,
+li {
   color: var(--highlight-color);
 }
 @media screen and (min-width: 768px) {
