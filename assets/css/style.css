@@ -251,6 +251,13 @@ color: var(--highlight-color);
   text-align: end;
 }
 
+#service h4 {
+  color: var(--highlight-color);
+
+}
+#service-repairs h4,h5,h6,li {
+  color: var(--highlight-color);
+}
 @media screen and (min-width: 768px) {
   #test1,
   #test2 {
