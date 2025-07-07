@@ -51,6 +51,10 @@ h5 {
   background-color: var(--primary-color);
   width: 100%;
 }
+/* alight right */
+.nav-link {
+  text-align: end;
+}
 
 #navbar .logo {
   width: 50px;
