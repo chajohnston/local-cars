@@ -32,7 +32,8 @@ h1,
 h2,
 h3 {
   font-family: var(--secondary-font);
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
+  color: white;
   text-transform: uppercase;
 }
 
@@ -89,6 +90,8 @@ h5 {
   color: var(--highlight-color);
   font-size: 1.5rem;
   min-height: 100px;
+  font-family:var(--secondary-font);
+  font-weight: 800;
 }
 
 #cars .btn-outline-secondary:hover {
@@ -100,6 +103,7 @@ h5 {
 }
 #cars .card-text {
   min-height: auto;
+  color: var(--highlight-color);
 }
 
 .card-body {
@@ -149,7 +153,8 @@ footer {
   color: var(--highlight-color);
 }
 #contact h2 {
-  color: var(--highlight-color);
+  /* color: var(--highlight-color); */
+  color: white;
 }
 .container h4 {
   text-align: center;
@@ -211,7 +216,8 @@ footer {
 
 .submit-message h1,
 h2 {
-  color: var(--highlight-color);
+  /* color: var(--highlight-color); */
+  color: white;
   font-family: var(--primary-font);
 }
 
@@ -221,10 +227,12 @@ h2 {
 }
 
 #about h4 {
-  color: var(--highlight-color);
+  color: white;
+  /* color: var(--highlight-color); */
 }
 #test h4 {
-  color: var(--highlight-color);
+  /* color: var(--highlight-color); */
+  color: white;
 }
 #testimonial-image {
   display: flex;
@@ -251,14 +259,16 @@ h2 {
   text-align: end;
 }
 
-#service h4 {
-  color: var(--highlight-color);
+#service h4, p {
+  /* color: var(--highlight-color); */
+  color: white;
 }
 #service-repairs h4,
 h5,
 h6,
 li {
-  color: var(--highlight-color);
+  /* color: var(--highlight-color); */
+  color: white;
 }
 @media screen and (min-width: 768px) {
   #test1,
