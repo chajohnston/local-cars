@@ -143,6 +143,13 @@ To make a clone of the site and ensure you don't affect the original:
 
 Initial testing fond an error with the use of id="cars" as there were duplicates. 
 ![homepage-error](documentation/homepage-error.png)
+The error was resolved by changing cars to a class in index.html and in style.css. 
+After testing and validation the result was good.
+![homepage](documentation/homepage-no-error.png)
+The homepage now has no error or warnings.
+### About page
+The test found an issue with the use of slashes.
+![about-error](documentation/about-error.png)
 
 # References
 
