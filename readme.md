@@ -10,6 +10,12 @@ The Local Cars website is a landing page for perspective buyers of used cars in 
 1. [User Experience](#user-experience)
 1. [Design](#design)
 1. [Features](#features)
+1. [Wireframes](#wireframes)
+1. [Deployment](#deployment)
+1. [Testing](#testing)
+1. [References](#references)
+1. [Acknowledgements](#Acknowledgements)
+
 
 # User Experience
 
@@ -138,31 +144,54 @@ To make a clone of the site and ensure you don't affect the original:
 # Testing
 
 ### HTML
+Testing was carried out using a HTML validator 
+-https://validator.w3.org/nu/
 
 ### Home page
 
-Initial testing fond an error with the use of id="cars" as there were duplicates. 
+Initial testing fond an error with the use of id="cars" as there were duplicates.
 ![homepage-error](documentation/homepage-error.png)
-The error was resolved by changing cars to a class in index.html and in style.css. 
+The error was resolved by changing cars to a class in index.html and in style.css.
 After testing and validation the result was good.
 ![homepage](documentation/homepage-no-error.png)
 The homepage now has no error or warnings.
+
 ### About page
+
 The test found an issue with the use of slashes.
 ![about-error](documentation/about-error.png)
-This was easily resolved and updeted below to show no errors or warnings,
+This was easily resolved and updated below to show no errors or warnings,
 ![about](documentation/about-no-error.png)
-The test for service and repair found varios error, see below, 
+
+### Service and Repairs page
+
+The test for service and repair found various error, see below,
 ![service-repair-error](documentation/service-repair-error.png)
 The varios errors were resolved by moving a closing div, adding a closing div and putting slashes the correct way around.
 ![service-repair-no-error](documentation/service-repair-no-error.png)
-The contact page had no errors. 
+
+### Contact page
+
+The contact page had no errors.
 ![contact](documentation/contact-no-errors.png)
+
+### Submit page
+
 The submit page had no errors.
 ![submit](documentation/submit-no-errors.png)
+
+### Gallery page
+
 The gallery had an error that it was missing a heading, see below,
 ![gallery-error](documentation/gallery-error.png)
+The error was fixed by adding a hidden heading,
+![gallery-no-error](documentation/gallery-no-errors.png)
 
+### CSS style sheet
+Testing was carried out using a CSS validator,
+- https://jigsaw.w3.org/css-validator/
+The style.css file was validated, and no errors were found.
+![css-no-error](documentation/css-no-errors.png)
 
 # References
 
