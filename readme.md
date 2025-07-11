@@ -150,6 +150,11 @@ The homepage now has no error or warnings.
 ### About page
 The test found an issue with the use of slashes.
 ![about-error](documentation/about-error.png)
+This was easily resolved and updeted below to show no errors or warnings,
+![about](documentation/about-no-error.png)
+The test for service and repair found varios error, see below, 
+![service-error-error](documentation/service-repair-error.png)
+
 
 # References
 
