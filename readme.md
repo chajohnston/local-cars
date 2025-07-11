@@ -154,8 +154,8 @@ This was easily resolved and updeted below to show no errors or warnings,
 ![about](documentation/about-no-error.png)
 The test for service and repair found varios error, see below, 
 ![service-error-error](documentation/service-repair-error.png)
-The varios errors were resolved by moving a closing div and putting slashes the correct way around
-
+The varios errors were resolved by moving a closing div, adding a closing div and putting slashes the correct way around.
+![service-error-no-error](documentation/service-repair-no-error.png)
 
 # References
 
