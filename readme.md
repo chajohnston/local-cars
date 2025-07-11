@@ -137,6 +137,13 @@ To make a clone of the site and ensure you don't affect the original:
 
 # Testing
 
+### HTML
+
+### Home page
+
+Initial testing fond an error with the use of id="cars" as there were duplicates. 
+![homepage-error](documentation/homepage-error.png)
+
 # References
 
 ### Images

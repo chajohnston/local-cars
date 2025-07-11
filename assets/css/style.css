@@ -80,15 +80,15 @@ h5 {
 
 /* cars */
 
-#cars {
+.cars {
   background-color: var(--secondary-color);
 }
 
-#cars h2 {
+.cars h2 {
   color: white;
 }
 
-#cars .card-title {
+.cars .card-title {
   color: var(--highlight-color);
   font-size: 1.5rem;
   min-height: 100px;
@@ -96,15 +96,15 @@ h5 {
   font-weight: 800;
 }
 
-#cars .btn-outline-secondary:hover {
+.cars .btn-outline-secondary:hover {
   background-color: var(--highlight-color);
 }
 
-#cars .btn-outline-secondary {
+.cars .btn-outline-secondary {
   background-color: var(--secondary-color);
   color: white;
 }
-#cars .card-text {
+.cars .card-text {
   min-height: auto;
   color: var(--highlight-color);
 }
