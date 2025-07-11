@@ -153,9 +153,16 @@ The test found an issue with the use of slashes.
 This was easily resolved and updeted below to show no errors or warnings,
 ![about](documentation/about-no-error.png)
 The test for service and repair found varios error, see below, 
-![service-error-error](documentation/service-repair-error.png)
+![service-repair-error](documentation/service-repair-error.png)
 The varios errors were resolved by moving a closing div, adding a closing div and putting slashes the correct way around.
-![service-error-no-error](documentation/service-repair-no-error.png)
+![service-repair-no-error](documentation/service-repair-no-error.png)
+The contact page had no errors. 
+![contact](documentation/contact-no-errors.png)
+The submit page had no errors.
+![submit](documentation/submit-no-errors.png)
+The gallery had an error that it was missing a heading, see below,
+![gallery-error](documentation/gallery-error.png)
+
 
 # References
 

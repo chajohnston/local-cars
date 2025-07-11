@@ -35,6 +35,9 @@ h3 {
   color: white;
   text-transform: uppercase;
 }
+.hidden-heading {
+    display: none;
+}
 
 p,
 h5 {
