@@ -24,7 +24,6 @@
 body {
   font-family: var(--primary-font);
   background-color: var(--secondary-color);
-  /* background-color: white; */
   padding-top: 80px;
 }
 
@@ -32,7 +31,7 @@ h1,
 h2,
 h3 {
   font-family: var(--secondary-font);
-  /* color: var(--primary-color); */
+
   color: white;
   text-transform: uppercase;
 }
@@ -51,7 +50,7 @@ h5 {
   background-color: var(--primary-color);
   width: 100%;
 }
-/* alight right */
+
 .nav-link {
   text-align: end;
 }
@@ -73,7 +72,7 @@ h5 {
   opacity: 0.6;
 }
 .hero-text {
-  color: var(--primary-color);
+  color: var(--highlight-color);
   font-size: 400%;
   font-weight: 800;
   text-align: right;
@@ -83,7 +82,6 @@ h5 {
 
 #cars {
   background-color: var(--secondary-color);
-  /* min-height: 400px; */
 }
 
 #cars h2 {
@@ -94,7 +92,7 @@ h5 {
   color: var(--highlight-color);
   font-size: 1.5rem;
   min-height: 100px;
-  font-family:var(--secondary-font);
+  font-family: var(--secondary-font);
   font-weight: 800;
 }
 
@@ -104,6 +102,7 @@ h5 {
 
 #cars .btn-outline-secondary {
   background-color: var(--secondary-color);
+  color: white;
 }
 #cars .card-text {
   min-height: auto;
@@ -128,7 +127,7 @@ main {
 /* Footer */
 footer {
   min-height: 50px;
-  /* background-color: red; */
+
   margin: 0;
   background-color: var(--primary-color);
   position: fixed;
@@ -157,7 +156,6 @@ footer {
   color: var(--highlight-color);
 }
 #contact h2 {
-  /* color: var(--highlight-color); */
   color: white;
 }
 .container h4 {
@@ -220,7 +218,6 @@ footer {
 
 .submit-message h1,
 h2 {
-  /* color: var(--highlight-color); */
   color: white;
   font-family: var(--primary-font);
 }
@@ -232,10 +229,8 @@ h2 {
 
 #about h4 {
   color: white;
-  /* color: var(--highlight-color); */
 }
 #test h4 {
-  /* color: var(--highlight-color); */
   color: white;
 }
 #testimonial-image {
@@ -263,15 +258,14 @@ h2 {
   text-align: end;
 }
 
-#service h4, p {
-  /* color: var(--highlight-color); */
+#service h4,
+p {
   color: white;
 }
 #service-repairs h4,
 h5,
 h6,
 li {
-  /* color: var(--highlight-color); */
   color: white;
 }
 
@@ -281,7 +275,6 @@ li {
 #photos {
   line-height: 0;
 }
-
 
 @media screen and (min-width: 768px) {
   #test1,
